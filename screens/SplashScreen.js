@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Image, View } from "react-native";
+import { Dimensions, StyleSheet, Image, View } from "react-native";
 import BackgroundImage from "../components/BackgroundImage";
 import Colors from "../consts/Colors";
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     // textAlignVertical: "center",
 
     marginTop: 250,
-    width: 200,
+    width: Dimensions.get("window").width / 2,
     height: 50,
     resizeMode: "stretch"
   },

@@ -7,13 +7,14 @@ import {
   Button,
   Dimensions,
   Image,
-  WebView,
   Linking
 } from "react-native";
+import { WebView } from "react-native-webview";
 import { ScrollView, FlatList } from "react-native-gesture-handler";
 import * as data from "../data.json";
 import Colors from "../consts/Colors";
 import Touchable from "react-native-platform-touchable";
+import BookingScreen from "./BookingScreen.js";
 
 export default class RestaurantScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
@@ -64,7 +65,7 @@ export default class RestaurantScreen extends React.Component {
     super(props);
 
     this.state = {
-      show: null
+      showModal: false
     };
   }
 
@@ -73,7 +74,7 @@ export default class RestaurantScreen extends React.Component {
 
     return (
       <WebView
-        source={uri}
+        source={{ uri }}
         ref={ref => {
           this.webview = ref;
         }}
@@ -194,10 +195,8 @@ export default class RestaurantScreen extends React.Component {
               />
 
               <View style={styles.footerGroup}>
-                <Touchable
-                  onPress={() => this.props.navigation.navigate("Modal")}
-                >
-                  <View>
+                <Touchable onPress={() => this.setState({ showModal: true })}>
+                  <View style={styles.footerButton}>
                     <Image
                       source={require("../imgs/booking.png")}
                       style={{ width: 50, height: 50 }}
@@ -209,7 +208,7 @@ export default class RestaurantScreen extends React.Component {
                 <Touchable
                   onPress={() => this.geoLocalization(restaurant.morada)}
                 >
-                  <View>
+                  <View style={styles.footerButton}>
                     <Image
                       source={require("../imgs/nearby.png")}
                       style={{ width: 50, height: 50 }}
@@ -219,6 +218,13 @@ export default class RestaurantScreen extends React.Component {
                 </Touchable>
               </View>
             </ScrollView>
+            {this.state.showModal ? (
+              <BookingScreen
+                modalVisible={this.state.showModal}
+                setModalVisibility={show => this.setState({ showModal: show })}
+                data={restaurant}
+              />
+            ) : null}
           </>
         </View>
       </ScrollView>
@@ -272,6 +278,9 @@ const styles = StyleSheet.create({
   },
   footerButton: {
     flexDirection: "column",
-    alignSelf: "center"
+    justifyContent: "center",
+
+    alignItems: "center",
+    textAlign: "center"
   }
 });
