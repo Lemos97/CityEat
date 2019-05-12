@@ -1,0 +1,252 @@
+{
+  "restaurantes": [
+    {
+      "nome": "Perna Longa",
+      "morada": "Avenida vira da esquina Nº81",
+      "contacto": "911233222",
+      "foto": "perna_longa",
+      "lotacao": "10",
+      "espacoLivre": "10",
+      "acessoMobilReduz": true,
+      "reutMat": true,
+      "multibanco": false,
+      "postoAbastEletrico": true,
+      "pratos": [
+        {
+          "nome": "Arroz de Pato",
+          "preco": "5.15",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Salsicha",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": true
+        },
+        {
+          "nome": "Bifinhos com Cogumelos",
+          "preco": "6.66",
+          "alergenios": "3",
+          "recomendados": false
+        },
+        {
+          "nome": "Bitoque",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Alheira",
+          "preco": "5.55",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Lombo no Forno",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Bacalhau com Nata",
+          "preco": "6.54",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Bacalhau a Brás",
+          "preco": "7.44",
+          "alergenios": "3",
+          "recomendados": true
+        },
+        {
+          "nome": "Pescada na Prata",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": true
+        },
+        {
+          "nome": "Alheira de Soja",
+          "preco": "9.4",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Caldo Verde",
+          "preco": "6.4",
+          "alergenios": "1",
+          "recomendados": false
+        },
+        {
+          "nome": "Sopa de peixe",
+          "preco": "6.4",
+          "alergenios": "1",
+          "recomendados": true
+        }
+      ]
+    },
+    {
+      "nome": "DracoMira",
+      "morada": "Avenida Santa nr 1",
+      "contacto": "911254321",
+      "foto": "dracomira",
+      "lotacao": "30",
+      "espacoLivre": "10",
+      "acessoMobilReduz": false,
+      "reutMat": true,
+      "multibanco": true,
+      "postoAbastEletrico": false,
+      "pratos": [
+        {
+          "nome": "Bitoque",
+          "preco": "5.15",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Carne Porco a Alentejana",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": true
+        },
+        {
+          "nome": "Carne Porco a Portuguesa",
+          "preco": "11.11",
+          "alergenios": "3",
+          "recomendados": false
+        },
+        {
+          "nome": "Bacalha com Natas",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Pescada na prata",
+          "preco": "5.55",
+          "alergenios": "1",
+          "recomendados": false
+        },
+        {
+          "nome": "lombo de Perca",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": true
+        }
+      ]
+    },
+    {
+      "nome": "FernandoInutito",
+      "morada": "Avenida ja la vou",
+      "foto": "fernandoinutito",
+      "contacto": "911654321",
+      "lotacao": "25",
+      "espacoLivre": "4",
+      "acessoMobilReduz": true,
+      "reutMat": true,
+      "multibanco": false,
+      "postoAbastEletrico": false,
+      "pratos": [
+        {
+          "nome": "lombinho de Porco no Forno",
+          "preco": "4.15",
+          "alergenios": "1",
+          "recomendados": false
+        },
+        {
+          "nome": "Peito de Peru Recheado",
+          "preco": "4.44",
+          "alergenios": "0",
+          "recomendados": false
+        },
+        {
+          "nome": "Bacalhau Espiritual",
+          "preco": "12.11",
+          "alergenios": "3",
+          "recomendados": false
+        },
+        {
+          "nome": "lasanha de Atum",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": true
+        },
+        {
+          "nome": "risotto de Legumes",
+          "preco": "15.55",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Pizza de Vegetais",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "caldo Verde",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Sopa da Pedra",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": true
+        }
+      ]
+    },
+    {
+      "nome": "Le Velmont",
+      "morada": "Estrada da borda",
+      "foto": "le_velmont",
+      "contacto": "911654111",
+      "lotacao": "15",
+      "espacoLivre": "15",
+      "acessoMobilReduz": true,
+      "reutMat": true,
+      "multibanco": false,
+      "postoAbastEletrico": false,
+      "pratos": [
+        {
+          "nome": "Perna de Borrego",
+          "preco": "4.15",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Rolo de Carne com Ananas",
+          "preco": "4.44",
+          "alergenios": "0",
+          "recomendados": false
+        },
+        {
+          "nome": "Bacalhau á Brás",
+          "preco": "12.11",
+          "alergenios": "3",
+          "recomendados": false
+        },
+        {
+          "nome": "Salmão com Amêndoas",
+          "preco": "4.44",
+          "alergenios": "2",
+          "recomendados": false
+        },
+        {
+          "nome": "Canja",
+          "preco": "15.55",
+          "alergenios": "1",
+          "recomendados": true
+        },
+        {
+          "nome": "Sopa de Ovos",
+          "preco": "7.77",
+          "alergenios": "2",
+          "recomendados": true
+        }
+      ]
+    }
+  ]
+}
